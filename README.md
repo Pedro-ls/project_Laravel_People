@@ -1,10 +1,10 @@
 # ProJect laravel
 
 ``
-para testar
-Running ...
+    para testar
+    Running ...
     composer install
-    
+
     php artisan key:generate
 
     crie um banco de dados no mysql chamado sonoda, usuario padrão do mysql
