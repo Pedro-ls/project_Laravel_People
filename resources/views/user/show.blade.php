@@ -1,6 +1,8 @@
 @extends('layouts.app')
 
-@section({{ explode(" ", $person->fullname)[0] }})
+@section("title")
+ {{ explode(" ", $person->fullname)[0]  }}
+@endsection
 
 
 @section('content')

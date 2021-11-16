@@ -1,6 +1,8 @@
 @extends("layouts.app")
 
-@section("Atualização  de {{ explode(" ", $person->fullname)[0] }}")
+@section("title")
+    Atualização  de {{ explode(" ", $person->fullname)[0] }}
+@endsection
 
 @section("content")
 

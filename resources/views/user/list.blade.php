@@ -1,7 +1,7 @@
 @extends('layouts.app')
 {{-- @if(!empty($users)) --}}
 
-@section("Listagem de pessoas")
+@section("title", "Listagem de pessoas")
 
 @section('content')
 <div class="container my-3">

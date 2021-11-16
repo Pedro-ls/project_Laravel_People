@@ -1,7 +1,8 @@
 @extends('layouts.app')
 
-@section({{ explode(" ", Auth::user()->fullname)[0] }})
-
+@section("title")
+{{ explode(" ", Auth::user()->fullname)[0] }}
+@endsection
 @section("buttons")
     
 @endsection
